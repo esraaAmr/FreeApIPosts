@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#babe"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.PostsDetailsFragment">
+
+    <TextView
+        android:id="@+id/post_id_text"
+        android:text="10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/post_user_id_text"
+        android:text="11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="7dp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/post_title_text"
+        android:text="Hello world Iam From Egypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="7dp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/post_disc_text"
+        android:text="Hello world Iam From Egypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="7dp"
+        android:textStyle="italic" />
+
+</LinearLayout>

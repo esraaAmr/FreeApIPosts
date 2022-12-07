@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="7dp"
+    app:cardCornerRadius="14dp"
+    android:layout_margin="4dp"
+    app:cardBackgroundColor="#bebe">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/post_id_text"
+            android:text="Esraa Amr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/post_title_text"
+            android:text="Hello world Iam From Egypt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="7dp"
+            android:textStyle="italic" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
